@@ -242,6 +242,33 @@ Resuelve de forma directa la objeción del mentor (*"¿Quién lo paga?"*), ataca
 
 ---
 
+### 6. Diferenciación Radical: HumanWork vs. Psicotécnicos Tradicionales
+*(Respuesta para cuando el jurado pregunte: "¿Para esto no están los psicotécnicos de RRHH?")*
+
+* **El psicotécnico tradicional (Siglo XX):** Evalúa rasgos clínicos generales (dibujar el hombre bajo la lluvia, Rorschach) en papel. Fue diseñado para descartar patologías, no para evaluar competencia operativa ni razonamiento técnico.
+* **Es 100% hackeable hoy:** En TikTok, YouTube y ChatGPT hay miles de guías que te enseñan cómo dibujar o qué responder para engañar al test.
+* **Llega tarde en el embudo:** Se toma al final del proceso (etapa 5 de 5) después de 4 semanas; no sirve para filtrar los 400 CVs iniciales.
+* **HumanWork es un 'Proof of Work' cognitivo:** Mide ejecución práctica en vivo al inicio del embudo. Evalúa si el candidato tiene criterio propio para resolver problemas y auditar a la IA cuando alucina.
+
+---
+
+### 7. Las 3 Mejoras Estratégicas Incorporadas a la Idea 3
+
+1. **"The AI Trap Test" (El Test de Trampas de IA como diferencial):**  
+   El examen no es múltiple choice: consiste en **auditar a una IA**. La plataforma le entrega al postulante un balance o reporte generado por un LLM con 3 alucinaciones o errores lógicos deliberados. Quien confía ciegamente en ChatGPT reprueba; quien tiene pensamiento crítico detecta las fallas y gana su *Proof of Competence*.
+2. **Loop Pedagógico con OpenARG (Learn-to-Earn):**  
+   Los estudiantes y trabajadores en reconversión practican gratis resolviendo auditorías sobre **datasets públicos reales de OpenARG** (compras públicas de CABA `bac`, inconsistencias presupuestarias o cruces de salarios del INDEC). Mientras aprenden, construyen su score de empleabilidad y cobran **micro-recompensas en satoshis (Lightning Network)**.
+3. **Reverse Hiring (Inversión del mercado laboral):**  
+   El candidato no envía cientos de CVs a ciegas. Su credencial inmutable (*Proof of Competence*) se lista de forma anónima en un leaderboard público donde las empresas compiten por enviarle ofertas directas basadas en su mérito comprobado.
+
+---
+
+### 8. Pregunta Asesina del Jurado (Abogado del Diablo)
+* **Pregunta:** *«Si el candidato hace el test en su casa, ¿qué le impide usar ChatGPT al lado en otra pestaña?»*
+* **Respuesta del equipo:** *«La prueba está diseñada con el principio de 'AI Trap': las preguntas contienen trampas lógicas e inconsistencias que los LLMs alucinan de forma predecible. Si el candidato copia y pega la respuesta de ChatGPT, el sistema detecta el patrón sintáctico de la alucinación y lo descalifica. Solo quien analiza críticamente el dato supera el test.»*
+
+---
+
 ## ⚖️ Comparativa Estratégica: Las 3 Ideas Frente a Frente
 
 Esta tabla resume cómo rinde cada propuesta contra la rúbrica oficial de LABITCONF y los filtros de los mentores:
