@@ -3,9 +3,15 @@
 **Equipo:** Australianos  
 **Mesa:** 5  
 **Hash:** `0x0e652757`  
-**Entrega de proyectos:** Sábado 31 de Octubre a las 14:00 hs (Costa Salguero, Buenos Aires)  
-**Track:** Impacto y Comunidad / Nueva Educación  
-**Ejes temáticos:** Educación · Pobreza · Gasto Público · Transparencia
+**Sede:** Costa Salguero, Buenos Aires (30 y 31 de Octubre)  
+**Entrega de proyectos:** Sábado 31 de Octubre a las 14:00 hs estricto (Demo web funcional)  
+
+---
+
+## 📋 Documentación Oficial del Hackathon
+
+- 📜 **[Bases, Tracks y Reglamento Oficial](./docs/00-bases-y-reglamento.md):** Desafío, 4 tracks, rúbrica del jurado (20% x 5), agenda completa, premios, filtro blockchain y Wi-Fi.
+- 🧠 **[Marco Teórico e Influencias](./docs/influencias.md):** Santiago Bilinkis, Kai-Fu Lee, UNIR (#ForoIA) y Global Forums.
 
 ---
 
