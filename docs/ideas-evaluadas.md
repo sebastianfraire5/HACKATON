@@ -276,17 +276,25 @@ Resuelve de forma directa la objeción del mentor (*"¿Quién lo paga?"*), ataca
 * **Inspiración:** Validación de mercado real (Contablix / Takenos), Código Fiscal CABA (art. 179 inc. 21) y recaudación tributaria en OpenARG.
 
 ### 1. El Problema Real y Validado en el Mercado
-* **El Dolor:** Medio millón de argentinos trabajan para el exterior (exportación de servicios: developers, diseñadores, traductores, creadores). Cuando bajan sus ingresos a cuentas bancarias argentinas para pagar sus gastos cotidianos (alquiler, comida, servicios), los bancos les aplican automáticamente el padrón de **SIRCREB** (Comisión Arbitral), reteniéndoles entre el **1,5% y el 5%** de cada transferencia.
-* **La Injusticia Fiscal:** En CABA y varias provincias, la exportación de servicios está **exenta por ley** de Ingresos Brutos (Código Fiscal CABA art. 179, inc. 21). La retención es indebida.
-* **El Hueco de Mercado:** Los freelancers no tienen contador o usan contadores de barrio que no entienden de exportación de servicios. Los estudios contables especializados (como Contablix) cobran abonos mensuales de $30.000 a $50.000/mes que no se justifican para quien recién empieza o gana sumas moderadas. La mayoría ni siquiera sabe que le están reteniendo plata.
+* **El Dolor Validado:** Medio millón de argentinos trabajan para el exterior (exportación de servicios: developers, diseñadores, traductores, creadores). Cuando bajan sus ingresos a cuentas bancarias argentinas para pagar sus gastos cotidianos (alquiler, comida, servicios), los bancos les aplican automáticamente el padrón de **SIRCREB** (Comisión Arbitral), reteniéndoles entre el **1,5% y el 5%** de cada transferencia.
+* **Validación de Mercado:** El dolor es tan real que servicios como Contablix promocionan sus planes con la frase literal: *"Me retienen en cada cobro y no entiendo por qué"*. Tienen más de 250 clientes pagando abonos mensuales. El freelancer paga por resolver esto.
+* **La Injusticia Fiscal:** En CABA y varias provincias, la exportación de servicios está **100% exenta por ley** de Ingresos Brutos (Código Fiscal CABA art. 179, inc. 21). La retención bancaria es completamente indebida.
+* **El Hueco de Mercado (Frente a Contablix):** Contablix ya le avisa a sus clientes activos con abono mensual. El hueco desatendido está en tres segmentos:
+  1. **Freelancers con contador de barrio genérico:** Su contador desconoce las particularidades de SIRCREB y de la exportación de servicios de software/diseño.
+  2. **Freelancers que hacen todo solos:** No saben qué es SIRCREB ni se enteran de las retenciones hormiga en sus extractos.
+  3. **Freelancers que recién arrancan o ganan montos moderados:** Un abono de $30.000 a $50.000/mes de un estudio contable tradicional no se justifica.
+* **Problema Reformulado (Hipótesis H6):**
+  > *"La mayoría de los freelancers que trabajan para el exterior no tienen un contador especializado, así que sufren retenciones de Ingresos Brutos que no les corresponden sin enterarse, y la ayuda que existe es un estudio contable mensual que no se justifica para lo que ganan."*
 
 ---
 
-### 2. La Solución: Demo de un Solo Recorrido (Ideal para el Hackathon)
-1. **Paso 1:** El usuario sube su extracto bancario en PDF o CSV.
+### 2. La Solución: Demo de un Solo Recorrido (Integrada con Clara.html)
+*(Ver análisis y código del prototipo en [`docs/04-analisis-clara-sircreb.md`](file:///Users/gabo/Desktop/Proyectos/Eduhub/docs/04-analisis-clara-sircreb.md))*
+
+1. **Paso 1:** El usuario sube su extracto bancario o de Mercado Pago en PDF o CSV.
 2. **Paso 2 (IA con OCR):** La IA lee el extracto desordenado, aísla las líneas con códigos de retención (SIRCREB / IIBB), suma el total retenido y muestra el número exacto: *"Te retuvieron $148.500 ARS en los últimos 3 meses"*.
 3. **Paso 3 (Explicación Legal):** La app explica con lenguaje simple y cita la norma oficial: *"Tus ingresos son por exportación de servicios, exentos según el art. 179 inc. 21 del Código Fiscal. Esta retención no corresponde."*
-4. **Paso 4 (Acción y Reclamo):** Con un clic, genera el **borrador formal de solicitud de exclusión y devolución de saldos a favor** listo para presentar con Clave Fiscal ante AGIP / COMARB.
+4. **Paso 4 (Acción y Reclamo con Bitcoin):** Con un clic, genera el **borrador formal de solicitud de exclusión y devolución de saldos a favor** listo para presentar con Clave Fiscal ante AGIP / COMARB, y calcula la huella SHA-256 para sellarla en Bitcoin con OpenTimestamps como fecha cierta inmutable.
 
 ---
 
@@ -294,7 +302,11 @@ Resuelve de forma directa la objeción del mentor (*"¿Quién lo paga?"*), ataca
 * **Modelo "No Win, No Fee" (A Éxito):** La app cobra una comisión del **15% al 20% sobre el saldo a favor recuperado o destrabado**. El freelancer paga feliz porque recupera dinero que daba por perdido.
 * **Micro-fee por trámite generado:** Opción de pago único de **USD 10 a USD 15 en satoshis (Lightning) o pesos** para descargar el paquete de reclamo listo para presentar.
 * **Derivación B2B:** Casos complejos se derivan a estudios contables partners cobrando comisión de referral (lead generation).
-* **Mercado Estimado:** Con ~33.000 freelancers afectados perdiendo un promedio de USD 430 anuales, hay más de **USD 14 millones anuales retenidos indebidamente**, con un mercado de recupero de más de **USD 2,8 millones al año**.
+* **Embudo y Mercado Estimado (Rango de Sensibilidad):**
+  * **500.000** freelancers exportadores (Min. Economía) -> **250.000** facturan formalmente (50%) -> **175.000** bajan a cuentas bancarias argentinas (70%) -> **43.750** sufren retenciones SIRCREB (25%) -> **~33.000** no tienen contador especializado (rango 11.000 a 71.000).
+  * **Ingreso mediano:** USD 1.800/mes (Reporte Takenos 2026). Retención 2% = **USD 36/mes (~USD 430/año por persona)**.
+  * **Total retenido indebidamente:** **~USD 14 millones anuales**.
+  * **Mercado potencial del servicio (comisión 20%):** **~USD 2,8 millones anuales**.
 
 ---
 
