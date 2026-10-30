@@ -32,13 +32,13 @@ El kit oficial de LABITCONF destaca estas 8 preguntas típicas del jurado:
 > *"Hablamos con 3 personas en el predio [mencionar las 3 entrevistas del Bloque 2]. Nos confirmaron que cuando hay comida en mal estado, la directora llena un formulario en papel que nunca llega a descontarse de la factura del concesionario."*
 
 ### 3. ¿Por qué blockchain y no una base de datos común?
-> *"Porque el que maneja la base de datos centralizada es el mismo funcionario que aprueba y paga las licitaciones. Si la base es del gobierno, la denuncia es borrable o editable. Blockchain aporta inmutabilidad para que nadie pueda borrar la evidencia histórica y permite programar un Smart Escrow o liquidación transparente."*
+> *"Porque el que maneja la base de datos centralizada es el mismo funcionario que aprueba y paga las licitaciones. Si la base es del gobierno, la denuncia es borrable o editable. Blockchain aporta inmutabilidad para que nadie pueda borrar la evidencia histórica y permite programar un Smart Escrow o liquidación transparente. Como se discutió en los foros de ética y gobernanza de IA del evento: los datos públicos de impacto social no pueden vivir en una caja negra controlada por una sola parte interesada."*
 
 ### 4. ¿Qué parte de la demo funciona de verdad y qué está simulado?
 > *"El cruce de datos con el Padrón Nacional de Escuelas, los contratos reales de BAC y las métricas de pobreza del INDEC es 100% real. El formulario de certificación y el cálculo del hash criptográfico funcionan en el cliente. El smart contract de penalidad está simulado/en testnet para garantizar estabilidad en la presentación."*
 
 ### 5. ¿Qué existe hoy y por qué esto es mejor?
-> *"Hoy existe un sistema de reclamos telefónicos o actas físicas que tardan meses en tramitarse y quedan en la nada. Esto es mejor porque hace pública la información en tiempo real, descentraliza el control en quienes comen la comida y genera una prueba criptográfica auditable para periodistas, cooperadoras y la justicia."*
+> *"Hoy existe un sistema de reclamos telefónicos o actas físicas que tardan meses en tramitarse y quedan en la nada. Esto es mejor porque sigue la premisa de Santiago Bilinkis de evitar el 'sedentarismo cognitivo' y lo que propone Kai-Fu Lee: no delegamos en un algoritmo pasivo, sino que empoderamos a la comunidad con pensamiento crítico y herramientas descentralizadas para auditar activamente el uso de sus propios recursos."*
 
 ### 6. ¿Cómo se sostiene en el tiempo? ¿Quién paga?
 > *"Modelo B2G / GovTech cívico: Organizaciones de transparencia y cooperadoras financian el monitoreo cívico, o el propio Estado lo adopta como estándar de auditoría de proveedores para ahorrar millones en penalidades por incumplimiento de pliegos."*

@@ -14,11 +14,21 @@
 | Bloque | Nombre | Horario | Estado | Documento |
 | :---: | :--- | :--- | :---: | :--- |
 | **01** | **Problema** | Vie 11:00 – 12:30 | ⛏️ Minado | [`docs/01-problema.md`](./docs/01-problema.md) |
-| **02** | **Usuario** | Vie 12:30 – 14:30 | ⏳ Pendiente | `docs/02-usuario.md` |
-| **03** | **Idea** | Vie 14:30 – 16:30 | ⏳ Pendiente | `docs/03-idea.md` |
-| **04** | **Prototipo** | Vie 16:30 – 19:00 / Sáb 09:45 – 12:00 | ⏳ Pendiente | `docs/04-prototipo.md` |
-| **05** | **Validación** | Sáb 12:00 – 13:00 | ⏳ Pendiente | `docs/05-validacion.md` |
-| **06** | **Pitch (60s)** | Sáb 13:00 – 14:00 | ⏳ Pendiente | `docs/06-pitch.md` |
+| **02** | **Usuario** | Vie 12:30 – 14:30 | ⏳ Pendiente | [`docs/02-usuario.md`](./docs/02-usuario.md) |
+| **03** | **Idea** | Vie 14:30 – 16:30 | ⏳ Pendiente | [`docs/03-idea.md`](./docs/03-idea.md) |
+| **04** | **Prototipo** | Vie 16:30 – 19:00 / Sáb 09:45 – 12:00 | ⏳ Pendiente | [`docs/04-prototipo.md`](./docs/04-prototipo.md) |
+| **05** | **Validación** | Sáb 12:00 – 13:00 | ⏳ Pendiente | [`docs/05-validacion.md`](./docs/05-validacion.md) |
+| **06** | **Pitch (60s)** | Sáb 13:00 – 14:00 | ⏳ Pendiente | [`docs/06-pitch.md`](./docs/06-pitch.md) |
+
+---
+
+## 🧠 Marco Teórico e Influencias
+Documentamos cómo las 4 charlas y conferencias oficiales inspiran el proyecto:
+- **Santiago Bilinkis:** Evitar el sedentarismo cognitivo (la IA no debe pensar por nosotros; la comunidad debe auditar activamente).
+- **Kai-Fu Lee:** Habilidades humanas irremplazables (empatía, compasión y resolución de problemas sociales reales).
+- **UNIR (#ForoIA):** Ética, gobernanza y transparencia pública en algoritmos y datos.
+- **Global Forums:** Automatización, el futuro del trabajo y la descentralización del valor.
+👉 Ver desglose completo en [`docs/influencias.md`](./docs/influencias.md).
 
 ---
 
