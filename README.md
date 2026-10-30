@@ -11,6 +11,7 @@
 ## 📋 Documentación Oficial del Hackathon
 
 - 📜 **[Bases, Tracks y Reglamento Oficial](./docs/00-bases-y-reglamento.md):** Desafío, 4 tracks, rúbrica del jurado (20% x 5), agenda completa, premios, filtro blockchain y Wi-Fi.
+- 💡 **[Banco de Ideas Evaluadas](./docs/ideas-evaluadas.md):** Matriz de puntuación oficial (/100), filtros eliminatorios, críticas y pivotes para cada propuesta del equipo.
 - 📚 **[Bibliografía y Referencias de Libros](./docs/bibliografia.md):** Sigman & Bilinkis (*Artificial*), manuales de Prompt Engineering (O'Reilly) y *LLM Engineer's Handbook* (Packt).
 - 🧠 **[Marco Teórico y Videos de Referencia](./docs/influencias.md):** Santiago Bilinkis, Kai-Fu Lee, UNIR (#ForoIA) y Global Forums.
 
