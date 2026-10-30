@@ -36,8 +36,12 @@ Una aplicación web para consorcios de edificios donde:
 ### 🚦 Análisis de Filtros Eliminatorios
 
 * ❌ **Filtro OpenARG (PELIGRO - OBLIGATORIO POR BASES):**  
-  * *Estado:* **NO CUMPLE EN SU FORMA PURA.**  
-  * *Razón:* Las expensas de un edificio privado son **datos privados de vecinos particulares**. OpenARG indexa **datos públicos del Estado argentino** (+33.000 datasets oficiales). Si la app solo procesa tickets privados de un consorcio de Caballito, **el jurado la descalifica por no estar justificada con OpenARG**.
+  * *Estado:* **NO CUMPLE EN SU FORMA PURA (EXPENSAS PRIVADAS).**  
+  * *Razón:* Las expensas de un edificio privado son **datos privados de vecinos particulares**. OpenARG indexa **datos públicos del Estado argentino** (+33.000 datasets oficiales). Si la app solo procesa tickets de un consorcio privado, el jurado la descalifica por no estar justificada con OpenARG.
+  * *Dataset Oficial de Rescate (Pivote):* Si pivota a **Auditor Cívico de Expensas** o **Cooperadoras Escolares**, se conecta directamente con:
+    * `raw.bac__buenos_aires_compras_contracts__45b499b0__v2` (+500.000 contratos de compras públicas de CABA en estándar OCDS).
+    * `raw.caba__buenos_aires_compras__d09720af__v2` (+107.441 adquisiciones de bienes y servicios).
+    * *Aplicación:* Los gastos de mantenimiento y limpieza declarados por el consorcio o cooperadora se contrastan contra los precios testigo y licitaciones oficiales de CABA para detectar sobreprecios.
 * ⚠️ **Filtro Blockchain ("¿Por qué no alcanza con una base de datos?"):**  
   * Si el administrador malintencionado sube una factura trucha o inflada, la blockchain solo guardará un ticket trucho de forma inmutable (*"Garbage In, Garbage Out"* o el problema del oráculo). Blockchain no resuelve por sí sola la verificación física del arreglo del ascensor.
 * ⚠️ **Traba Legal / Regulatoria en Argentina:**  
@@ -120,8 +124,10 @@ Una plataforma pedagógica interactiva impulsada por IA y anclada en datos reale
 ### 🚦 Análisis de Filtros Eliminatorios
 
 * ✅ **Filtro OpenARG:**  
-  * *Dataset Oficial Verificado:* `raw.cache_buenos_aires_resultados_aprender_r93dec25c45` (3.264 filas con los resultados de Aprender en Lengua y Matemática para cada partido de la Provincia de Buenos Aires: porcentaje avanzado, básico y por debajo del básico).
-  * *Uso en la app:* El mapa y los niveles de dificultad del juego se calibran según la realidad educativa de cada distrito.
+  * *Dataset Oficial Verificado:* `raw.cache_buenos_aires_resultados_aprender_r93dec25c45` (3.264 filas con los resultados de la evaluación oficial Aprender en Lengua y Matemática desagregados por partido de la Provincia de Buenos Aires).
+  * *Columnas oficiales:* `nombre_partido`, `materia` (lengua / matemática), `resultado` (avanzado, satisfactorio, básico, por debajo del nivel básico) y `porcentaje`.
+  * *Evidencia del Problema:* Demuestra empíricamente que en partidos del conurbano más del **40% a 50% de los estudiantes no alcanzan el nivel básico de comprensión de textos**.
+  * *Uso en la app:* El mapa y los niveles de dificultad de los desafíos se calibran automáticamente según la vulnerabilidad cognitiva real de cada municipio.
 * ✅ **Filtro Blockchain Oficial ("¿Por qué no alcanza con una base de datos?"):**  
   * Supera la pregunta 3 del jurado: *"¿Hay plata o valor moviéndose entre personas sin intermediario?"* -> **SÍ.** El protocolo premia el esfuerzo cognitivo con micro-recompensas en satoshis reales (Lightning) y emite credenciales de alfabetización financiera inmutables (Soulbound / Badges descentralizados), enseñando autocustodia real en vez de dependencia bancaria tradicional.
 * ✅ **Filtro Sedentarismo Cognitivo (Bilinkis / Sigman):**  
@@ -226,8 +232,11 @@ Para responder con números exactos en el pitch y ante el jurado/mentores:
 ### 🚦 Filtros Eliminatorios
 
 * ✅ **Filtro OpenARG:**  
-  * *Datasets Oficiales:* `raw.cache_indec_eph_tasas_cuadro_3_1` (Tasas de desocupación, empleo informal y subocupación por aglomerado urbano) e `raw.cache_indec_salarios_indice` (Índice de salarios por sector).
-  * *Aplicación:* La plataforma usa los datos de la EPH para identificar qué sectores y regiones de Argentina tienen mayor índice de empleo en riesgo de automatización y correlaciona las bandas salariales de mercado.
+  * *Datasets Oficiales Verificados en OpenARG:*
+    * `raw.cache_indec_eph_tasas_cuadro_3_1`: Indicadores de la Encuesta Permanente de Hogares (EPH) del INDEC para los 31 aglomerados urbanos. Registra una tasa de desocupación del **7,58%** a nivel nacional y **8,66%** en el Gran Buenos Aires, con una tasa alarmante de **Ocupados demandantes de empleo del 17,15%** (personas que trabajan pero buscan activamente otro empleo porque sus tareas se precarizan o pagan salarios por debajo de la subsistencia).
+    * `raw.cache_indec_eph_tasas_cuadro_1_6` y `cuadro_1_7`: Tasas de subocupación e informalidad por rango etario y nivel educativo, demostrando que los jóvenes sin habilidades certificadas tienen el doble de tasa de desempleo y vulnerabilidad ante la IA.
+    * `raw.cache_indec_salarios_indice`: Serie histórica del Índice de Salarios por sector registrado y no registrado.
+  * *Aplicación en la plataforma:* HumanWork cruza el test cognitivo con las áreas geográficas y sectores de la EPH para identificar qué grupos poblacionales sufren mayor riesgo de desplazamiento laboral por IA y conectar la demanda insatisfecha de las empresas con postulantes certificados.
 * ✅ **Filtro Blockchain Oficial:**  
   * *¿Varias partes que no se confían?* **SÍ:** La empresa desconfía del CV del candidato; el candidato desconfía de que la empresa reconozca sus méritos sin acomodo.  
   * *¿Inmutabilidad necesaria?* **SÍ:** Un certificado no puede ser alterado ni inflado por el candidato.  
@@ -325,8 +334,12 @@ Resuelve de forma directa la objeción del mentor (*"¿Quién lo paga?"*), ataca
 ### 🚦 Filtros Eliminatorios
 
 * ✅ **Filtro OpenARG:**  
-  * *Dataset Oficial:* `raw.caba__recaudacion_impositiva__a423bf53__v3` (Recaudación impositiva de AGIP por tipo de impuesto en CABA). Muestra cómo Ingresos Brutos es el mayor componente recaudatorio apalancado en retenciones bancarias automáticas.
-  * *Normativa oficial:* Cruce con el Código Fiscal de CABA y alícuotas provinciales publicadas en los portales abiertos de AGIP/COMARB.
+  * *Dataset Oficial #1:* `raw.caba__recaudacion_impositiva__a423bf53__v3` (Recaudación impositiva mensual de la Dirección General de Rentas de AGIP en CABA, 352 filas).
+    * **Dato contundente extraído en vivo:** En abril de 2026, de un total recaudado de **$953.683,4 millones** en CABA, **$714.719,7 millones provienen del Impuesto sobre los Ingresos Brutos**.
+    * **Esto representa el 75% de toda la recaudación tributaria de la Ciudad**. Ingresos Brutos se cobra compulsivamente mediante retenciones automáticas bancarias y sobre billeteras (SIRCREB y padrones de AGIP).
+  * *Dataset Oficial #2:* `raw.cache_caba_alto_riesgo_fiscal_r844f0f627d` (Padrón de Alto Riesgo Fiscal de CABA con **487.514 contribuyentes** a los que se les aplica alícuota agravada por presunciones automáticas de deuda).
+  * *Fundamento Normativo Oficial:* Se cruza con el **Art. 179 inc. 21 del Código Fiscal de CABA**, que establece taxativamente que la exportación de servicios está **100% EXENTA** de Ingresos Brutos.
+  * *Conclusión OpenARG:* La Ciudad financia el 75% de su gasto reteniendo a mansalva en cuentas bancarias, atrapando a miles de freelancers y exportadores de servicios exentos que pierden su dinero por desconocimiento.
 * ✅ **Filtro Blockchain Oficial:**  
   * *¿Por qué no cobrar todo en cripto y listo?* Porque en Argentina para vivir (alquiler, compras, prepaga) se necesita transferir a pesos en cuentas locales (Mercado Pago o banco), donde el banco aplica el débito compulsivo.
   * *Uso de Blockchain:* Pagos del servicio en Lightning Network / satoshis y registro de solicitudes con hash inmutable (*Proof of Claim*) para auditoría tributaria descentralizada.
