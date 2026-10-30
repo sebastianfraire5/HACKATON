@@ -240,4 +240,24 @@ Para responder con números exactos en el pitch y ante el jurado/mentores:
 **APROBADA COMO CANDIDATA PRINCIPAL (95/100).**  
 Resuelve de forma directa la objeción del mentor (*"¿Quién lo paga?"*), ataca el problema del impacto de la IA en el trabajo y tiene un modelo de negocio B2B claro, escalable y atractivo para un fondo de VC como Picante.
 
+---
+
+## ⚖️ Comparativa Estratégica: Las 3 Ideas Frente a Frente
+
+Esta tabla resume cómo rinde cada propuesta contra la rúbrica oficial de LABITCONF y los filtros de los mentores:
+
+| Criterio de Evaluación | Idea 1: Consorcios / Expensas | Idea 2: Comprensión y Anti-Timba | Idea 3: HumanWork (Reconversión IA) |
+| :--- | :---: | :---: | :---: |
+| **1. Impacto y Relevancia del Problema (20%)** | 15 / 20 | **20 / 20** | **20 / 20** |
+| **2. Modelo de Negocio: ¿Quién Paga? (20%)** | 16 / 20 | 17 / 20 | **20 / 20** *(Cliente corporativo B2B)* |
+| **3. Pitch y Comunicación en 60s (20%)** | 18 / 20 | **19 / 20** | **19 / 20** |
+| **4. Prototipo y Factibilidad en 24h (20%)** | 12 / 20 | 17 / 20 | **18 / 20** |
+| **5. Innovación y Creatividad (20%)** | 10 / 20 | **18 / 20** | **18 / 20** |
+| **PUNTAJE TOTAL (/100)** | **71 / 100** | **91 / 100** | **95 / 100** |
+| **Cumplimiento Filtro OpenARG** | ❌ *No cumple (datos privados)* | ✅ *Cumple (Resultados Aprender)* | ✅ *Cumple (EPH INDEC Empleo y Salarios)* |
+| **Filtro Blockchain Oficial** | ⚠️ *Débil (problema del oráculo)* | ✅ *Sólido (Sats y credenciales)* | ✅ *Sólido (Proof of Competence inmutable)* |
+| **Recepción de Mentores / VC** | 🔴 *Rechazada por informalidad* | 🟡 *Cuestionada por monetización* | 🟢 *Validada como dolor de mercado real* |
+| **Veredicto del Equipo** | **Descartada / Requiere Pivote** | **Excelente alternativa pedagógica** | **🏆 CANDIDATA GANADORA PRINCIPAL** |
+
+
 
