@@ -269,22 +269,91 @@ Resuelve de forma directa la objeción del mentor (*"¿Quién lo paga?"*), ataca
 
 ---
 
-## ⚖️ Comparativa Estratégica: Las 3 Ideas Frente a Frente
+## Idea 4: "SIRCREB Hunter / ReclamaYa" (Detector de Retenciones Indebidas para Freelancers)
+* **Propuesta por:** Mesa 5 (Australianos) a partir de validación de mercado
+* **Fecha de análisis:** Viernes 30 de Octubre · 14:45 hs
+* **Track:** Inclusión Financiera (Track 1) / Creator Economy (Track 3) / Impacto y Comunidad (Track 4)
+* **Inspiración:** Validación de mercado real (Contablix / Takenos), Código Fiscal CABA (art. 179 inc. 21) y recaudación tributaria en OpenARG.
+
+### 1. El Problema Real y Validado en el Mercado
+* **El Dolor:** Medio millón de argentinos trabajan para el exterior (exportación de servicios: developers, diseñadores, traductores, creadores). Cuando bajan sus ingresos a cuentas bancarias argentinas para pagar sus gastos cotidianos (alquiler, comida, servicios), los bancos les aplican automáticamente el padrón de **SIRCREB** (Comisión Arbitral), reteniéndoles entre el **1,5% y el 5%** de cada transferencia.
+* **La Injusticia Fiscal:** En CABA y varias provincias, la exportación de servicios está **exenta por ley** de Ingresos Brutos (Código Fiscal CABA art. 179, inc. 21). La retención es indebida.
+* **El Hueco de Mercado:** Los freelancers no tienen contador o usan contadores de barrio que no entienden de exportación de servicios. Los estudios contables especializados (como Contablix) cobran abonos mensuales de $30.000 a $50.000/mes que no se justifican para quien recién empieza o gana sumas moderadas. La mayoría ni siquiera sabe que le están reteniendo plata.
+
+---
+
+### 2. La Solución: Demo de un Solo Recorrido (Ideal para el Hackathon)
+1. **Paso 1:** El usuario sube su extracto bancario en PDF o CSV.
+2. **Paso 2 (IA con OCR):** La IA lee el extracto desordenado, aísla las líneas con códigos de retención (SIRCREB / IIBB), suma el total retenido y muestra el número exacto: *"Te retuvieron $148.500 ARS en los últimos 3 meses"*.
+3. **Paso 3 (Explicación Legal):** La app explica con lenguaje simple y cita la norma oficial: *"Tus ingresos son por exportación de servicios, exentos según el art. 179 inc. 21 del Código Fiscal. Esta retención no corresponde."*
+4. **Paso 4 (Acción y Reclamo):** Con un clic, genera el **borrador formal de solicitud de exclusión y devolución de saldos a favor** listo para presentar con Clave Fiscal ante AGIP / COMARB.
+
+---
+
+### 3. Modelo de Negocio Inobjetable: ¿Quién Paga?
+* **Modelo "No Win, No Fee" (A Éxito):** La app cobra una comisión del **15% al 20% sobre el saldo a favor recuperado o destrabado**. El freelancer paga feliz porque recupera dinero que daba por perdido.
+* **Micro-fee por trámite generado:** Opción de pago único de **USD 10 a USD 15 en satoshis (Lightning) o pesos** para descargar el paquete de reclamo listo para presentar.
+* **Derivación B2B:** Casos complejos se derivan a estudios contables partners cobrando comisión de referral (lead generation).
+* **Mercado Estimado:** Con ~33.000 freelancers afectados perdiendo un promedio de USD 430 anuales, hay más de **USD 14 millones anuales retenidos indebidamente**, con un mercado de recupero de más de **USD 2,8 millones al año**.
+
+---
+
+### 📊 Evaluación con la Rúbrica Oficial (Puntaje: 95 / 100)
+
+| Criterio Oficial del Jurado | Puntaje | Justificación de la Medición |
+| :--- | :---: | :--- |
+| **1. Impacto y Relevancia del Problema** | **19 / 20** | **Dolor financiero directo y cuantificable en pesos/dólares.** Afecta a la comunidad tech, freelance y creadores que motorizan la economía del conocimiento en Argentina. |
+| **2. Modelo de Negocio y Sostenibilidad** | **20 / 20** | **Imbatible:** Modelo a éxito (comisión sobre recupero) + micro-fees. No depende del Estado ni de donaciones. Validación comercial probada por empresas como Contablix. |
+| **3. Pitch y Comunicación (60 segundos)** | **20 / 20** | **Conexión total con el auditorio de LABITCONF:** El 80% de la sala cobra en dólares y sufre retenciones bancarias. Preguntar *"¿A cuántos les descuenta el banco por SIRCREB sin saber por qué?"* genera ovación y empatía instantánea. |
+| **4. Calidad del Prototipo y Factibilidad (24h)** | **19 / 20** | **La demo más limpia y lograble en 5 horas:** Subir extracto PDF -> IA parsea líneas de retención -> Muestra total retenido -> Genera carta de reclamo con norma citada. |
+| **5. Innovación y Creatividad** | **17 / 20** | **LegalTech/Fintech accesible:** Automatiza un reclamo tributario complejo transformándolo en un autoservicio barato y al alcance de cualquier freelancer. |
+
+---
+
+### 🚦 Filtros Eliminatorios
+
+* ✅ **Filtro OpenARG:**  
+  * *Dataset Oficial:* `raw.caba__recaudacion_impositiva__a423bf53__v3` (Recaudación impositiva de AGIP por tipo de impuesto en CABA). Muestra cómo Ingresos Brutos es el mayor componente recaudatorio apalancado en retenciones bancarias automáticas.
+  * *Normativa oficial:* Cruce con el Código Fiscal de CABA y alícuotas provinciales publicadas en los portales abiertos de AGIP/COMARB.
+* ✅ **Filtro Blockchain Oficial:**  
+  * *¿Por qué no cobrar todo en cripto y listo?* Porque en Argentina para vivir (alquiler, compras, prepaga) se necesita transferir a pesos en cuentas locales (Mercado Pago o banco), donde el banco aplica el débito compulsivo.
+  * *Uso de Blockchain:* Pagos del servicio en Lightning Network / satoshis y registro de solicitudes con hash inmutable (*Proof of Claim*) para auditoría tributaria descentralizada.
+* ✅ **Filtro Sedentarismo Cognitivo (Bilinkis / Sigman):**  
+  * La herramienta alfabetiza tributariamente al ciudadano: le enseña a leer su extracto bancario, a entender por qué le descuentan y cómo defender sus derechos fiscales con la ley en la mano.
+
+---
+
+### 😈 Preguntas Asesinas del Jurado (Abogado del Diablo)
+
+1. *«¿Es legal que una app genere presentaciones impositivas sin la firma de un contador matriculado?»*  
+   *Respuesta del equipo:* *«La app no firma como contador: genera un borrador administrativo de auto-gestión para que el propio contribuyente lo presente con su Clave Fiscal (un derecho que la ley otorga a todo ciudadano). Para casos litigiosos o complejos, la app deriva al usuario a nuestra red de contadores matriculados partners.»*
+2. *«¿Qué pasa si la devolución del fisco tarda meses?»*  
+   *Respuesta del equipo:* *«El mayor valor inmediato no es solo pedir la devolución histórica, sino **lograr la exclusión del padrón del mes siguiente**, evitando que el banco le siga quitando plata en cada transferencia futura. Eso frena la pérdida de dinero desde el día 1.»*
+
+---
+
+### ⚖️ Veredicto
+**APROBADA CON MÁXIMO PUNTAJE (95/100) — CANDIDATA DE PRIMERA LÍNEA.**  
+Es ultra-empática para la comunidad de LABITCONF, resuelve un dolor financiero que la gente ya paga por resolver, y permite armar una demo visual perfecta en pocas horas.
+
+---
+
+## ⚖️ Comparativa Estratégica: Las 4 Ideas Frente a Frente
 
 Esta tabla resume cómo rinde cada propuesta contra la rúbrica oficial de LABITCONF y los filtros de los mentores:
 
-| Criterio de Evaluación | Idea 1: Consorcios / Expensas | Idea 2: Comprensión y Anti-Timba | Idea 3: HumanWork (Reconversión IA) |
-| :--- | :---: | :---: | :---: |
-| **1. Impacto y Relevancia del Problema (20%)** | 15 / 20 | **20 / 20** | **20 / 20** |
-| **2. Modelo de Negocio: ¿Quién Paga? (20%)** | 16 / 20 | 17 / 20 | **20 / 20** *(Cliente corporativo B2B)* |
-| **3. Pitch y Comunicación en 60s (20%)** | 18 / 20 | **19 / 20** | **19 / 20** |
-| **4. Prototipo y Factibilidad en 24h (20%)** | 12 / 20 | 17 / 20 | **18 / 20** |
-| **5. Innovación y Creatividad (20%)** | 10 / 20 | **18 / 20** | **18 / 20** |
-| **PUNTAJE TOTAL (/100)** | **71 / 100** | **91 / 100** | **95 / 100** |
-| **Cumplimiento Filtro OpenARG** | ❌ *No cumple (datos privados)* | ✅ *Cumple (Resultados Aprender)* | ✅ *Cumple (EPH INDEC Empleo y Salarios)* |
-| **Filtro Blockchain Oficial** | ⚠️ *Débil (problema del oráculo)* | ✅ *Sólido (Sats y credenciales)* | ✅ *Sólido (Proof of Competence inmutable)* |
-| **Recepción de Mentores / VC** | 🔴 *Rechazada por informalidad* | 🟡 *Cuestionada por monetización* | 🟢 *Validada como dolor de mercado real* |
-| **Veredicto del Equipo** | **Descartada / Requiere Pivote** | **Excelente alternativa pedagógica** | **🏆 CANDIDATA GANADORA PRINCIPAL** |
+| Criterio de Evaluación | Idea 1: Consorcios | Idea 2: Anti-Timba | Idea 3: HumanWork (Empleo IA) | Idea 4: SIRCREB Hunter |
+| :--- | :---: | :---: | :---: | :---: |
+| **1. Impacto del Problema (20%)** | 15 / 20 | 20 / 20 | **20 / 20** | **19 / 20** |
+| **2. Modelo de Negocio (20%)** | 16 / 20 | 17 / 20 | **20 / 20** *(B2B Empresas)* | **20 / 20** *(% Recupero)* |
+| **3. Pitch en 60s (20%)** | 18 / 20 | 19 / 20 | **19 / 20** | **20 / 20** *(Clímax en LABITCONF)* |
+| **4. Factibilidad en 24h (20%)** | 12 / 20 | 17 / 20 | 18 / 20 | **19 / 20** *(Demo de 1 solo camino)* |
+| **5. Innovación (20%)** | 10 / 20 | 18 / 20 | **18 / 20** | 17 / 20 |
+| **PUNTAJE TOTAL (/100)** | **71 / 100** | **91 / 100** | **95 / 100** | **95 / 100** |
+| **Filtro OpenARG** | ❌ *No cumple* | ✅ *Cumple* | ✅ *Cumple (INDEC EPH)* | ✅ *Cumple (Recaudación AGIP)* |
+| **Filtro Blockchain** | ⚠️ *Débil* | ✅ *Sólido* | ✅ *Sólido* | ✅ *Sólido (Lightning/Proof)* |
+| **Recepción Mentores** | 🔴 *Rechazada* | 🟡 *Cuestionada* | 🟢 *Validada como dolor real* | 🟢 *Validada comercialmente* |
+| **Veredicto** | **Descartada** | **Alternativa** | **🏆 CO-GANADORA (B2B)** | **🏆 CO-GANADORA (Fintech/Cívica)** |
 
 
 
