@@ -15,6 +15,7 @@
 - 💡 **[Banco de Ideas Evaluadas](./docs/ideas-evaluadas.md):** Matriz de puntuación oficial (/100), filtros eliminatorios, críticas y pivotes para cada propuesta del equipo.
 - 🎯 **[SIRCREB Hunter & Análisis Clara.html](./docs/04-analisis-clara-sircreb.md):** Auditoría del prototipo Clara.html, refinamiento del problema frente a Contablix, embudo cuantitativo y demo de 1 camino.
 - 🤖 **[Arquitectura de Agente Autónomo y MCP](./docs/04-arquitectura-agente-mcp.md):** El nuevo paradigma agent-first sin menús: cómo el agente interactúa en lenguaje natural y opera mediante herramientas MCP.
+- 💰 **[Modelo de Negocio Escalable y Sostenibilidad](./docs/04-modelo-de-negocio-escalable.md):** Por qué USD 5 solos no alcanzan, la escalera de valor de 5 niveles, unit economics (LTV/CAC 12:1) y proyección ARR.
 - 🚀 **[HumanWork: Deep Dive Técnico y Económico](./docs/03-humanwork-deepdive.md):** Modelo de negocio B2B, por qué pagan las empresas, HumanWork vs. Psicotécnicos tradicionales y AI Trap Test.
 - 📚 **[Bibliografía y Referencias de Libros](./docs/bibliografia.md):** Sigman & Bilinkis (*Artificial*), manuales de Prompt Engineering (O'Reilly) y *LLM Engineer's Handbook* (Packt).
 - 🧠 **[Marco Teórico y Videos de Referencia](./docs/influencias.md):** Santiago Bilinkis, Kai-Fu Lee, UNIR (#ForoIA) y Global Forums.
