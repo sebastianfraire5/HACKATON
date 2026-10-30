@@ -142,3 +142,76 @@ Una plataforma pedagógica interactiva impulsada por IA y anclada en datos reale
 **APROBADA CON CALIFICACIÓN SOBRESALIENTE (91/100).**  
 Es una idea de altísimo impacto, profunda, alineada con el track de **Nueva Educación / Inclusión Financiera**, y con un gancho de pitch que resuena profundamente en cualquier jurado.
 
+> 📝 **Nota de Feedback de Mentores (Mesa 5):**  
+> El mentor señaló con mucha razón que para ganar ante un jurado con perfil de VC (Fede Gir / Picante), la idea no puede sonar a "ONG con buenas intenciones": **el modelo de negocio tiene que ser incuestionable: ¿quién paga hoy y por qué?** Venderle a escuelas públicas o esperar subsidios ministeriales es un camino lento y riesgoso.
+
+---
+
+## Idea 3: "HumanWork / Proof of Human Competence" (Reconversión Laboral frente a la IA con Modelo B2B)
+* **Propuesta por:** Mesa 5 (Australianos) a partir del feedback de mentores
+* **Fecha de análisis:** Viernes 30 de Octubre · 13:30 hs
+* **Track:** Nueva Educación (Track 2) / Creator Economy (Track 3) / Inclusión Financiera (Track 1)
+* **Inspiración:** Conferencia de IA y Empleo (Global Forums) + Libro *Artificial* (Bilinkis / Sigman) + Charla de Fede Gir (Picante VC: *"Qué busca un VC"*)
+
+### 1. El Problemazo Real (Dolor que hace sangrar al cliente)
+Hay dos caras de un mismo problema desesperante:
+1. **El lado del trabajador / joven:** La IA está automatizando a velocidad récord los puestos junior y administrativos (atención al cliente, redacción básica, data entry, tareas contables y legales rutinarias). Millones de personas en Argentina ven caer su empleabilidad y no tienen USD 2.000 para pagar un bootcamp tradicional de reconversión.
+2. **El lado de la EMPRESA (EL CLIENTE QUE PAGA):**  
+   Con el auge de ChatGPT y Claude, **el proceso de contratación colapsó**. Los candidatos mandan CVs perfectos armados por IA y aprueban pruebas técnicas copiando y pegando prompts. Las empresas gastan entre **USD 1.500 y USD 4.000 por búsqueda laboral** y tardan 45 días, para terminar contratando personas con *sedentarismo cognitivo* que no saben resolver problemas reales cuando la IA falla.
+
+---
+
+### 2. La Solución: "HumanWork" (La Certificación Inmutable Anti-Fraude de IA)
+Una plataforma de formación y certificación descentralizada de habilidades humanas que la IA no puede reemplazar (pensamiento crítico, resolución de problemas complejos, auditoría ética y supervisión humana de IA):
+
+1. **Desafíos Prácticos en Entorno Controlado (Proof of Competence):**  
+   El candidato no envía un PDF de CV; resuelve casos reales en tiempo real (ej. auditar una base de datos pública con inconsistencias, detectar alucinaciones en un reporte financiero, diseñar una estrategia no obvia).
+2. **Credencial Verificable On-Chain (Inmutable):**  
+   Al superar los desafíos, se emite una credencial criptográfica descentralizada (Soulbound Token / Verifiable Credential) que demuestra con firma digital matemática que la persona resolvió el desafío con pensamiento propio y sin copiar.
+3. **Módulo 'Learn-to-Work' con Micro-Bounties:**  
+   Empresas de tecnología locales cargan tareas de validación humana (*Human-in-the-loop / RLHF* para datos argentinos). Los trabajadores se capacitan resolviendo estas tareas y **cobran micro-pagos reales en satoshis/dólares digitales** mientras construyen su reputación laboral.
+
+---
+
+### 3. Modelo de Negocio de Hierro: ¿Quién Paga? (La respuesta para el mentor)
+
+El modelo **NO depende del Estado ni de donaciones**: le cobra a **empresas privadas con presupuesto activo**:
+
+| Quién Paga | Por Qué Paga | Modelo de Cobro |
+| :--- | :--- | :--- |
+| **Empresas Tech, Fintechs y Corporativas** | Ahorran 70% del costo y tiempo de reclutamiento. Eliminan el riesgo de contratar gente con CVs falsificados por ChatGPT. | **Suscripción SaaS B2B:** USD 199/mes por acceso a la base de candidatos certificados con Proof of Competence + **Fee por contratación exitosa** (Success Fee). |
+| **Empresas de Software e Inteligencia Artificial** | Necesitan humanos que auditen, limpien y calibren sus modelos de IA sobre datos locales (trámites, lenguaje argentino, leyes, finanzas). | **Pago por tarea / dataset validado (Micro-bounties):** La plataforma retiene una comisión del 15% sobre cada tarea pagada. |
+| **Trabajadores / Estudiantes** | Acceso a capacitarse y ganar dinero mientras aprenden. | **Gratuito para el usuario:** No pagan para entrar; ganan dinero por auditar y solo aportan si acceden a programas avanzados de recolocación (modelo ISA opcional). |
+
+---
+
+### 📊 Evaluación con la Rúbrica Oficial (Puntaje: 95 / 100)
+
+| Criterio Oficial | Puntaje | Justificación |
+| :--- | :---: | :--- |
+| **1. Impacto y relevancia del problema** | **20 / 20** | **El tema del momento:** La destrucción y transformación de puestos de trabajo por la IA combinada con la crisis de empleabilidad juvenil. Es la tesis exacta que los mentores y VCs están buscando. |
+| **2. Modelo de negocio** | **20 / 20** | **Imbatible:** El cliente es la empresa que hoy ya gasta fortunas en LinkedIn Recruiter, HackerRank y agencias de selección. Resuelve el dolor con ahorro de costos inmediato. |
+| **3. Pitch y comunicación (60s)** | **19 / 20** | **Pitch demoledor:** *"La IA no solo está destruyendo empleos: destruyó la forma de contratar. Hoy todos usan ChatGPT para mentir en sus CVs. Creamos el estándar de Proof of Human Competence que valida habilidades reales y reconvierte talento."* |
+| **4. Calidad del prototipo y tecnología** | **18 / 20** | **Muy realizable:** Se puede armar un dashboard interactivo donde un reclutador ve el score de habilidades verificadas de un candidato y un sandbox interactivo donde el usuario resuelve un reto y recibe su hash criptográfico. |
+| **5. Innovación y creatividad** | **18 / 20** | **Alineación total con la bibliografía del hackathon:** Pone en práctica el libro *Artificial* de Bilinkis y Sigman (premiar el contorno de lo humano frente al sedentarismo cognitivo) usando blockchain para lo que realmente sirve: certificación inmutable sin intermediarios. |
+
+---
+
+### 🚦 Filtros Eliminatorios
+
+* ✅ **Filtro OpenARG:**  
+  * *Datasets Oficiales:* `raw.cache_indec_eph_tasas_cuadro_3_1` (Tasas de desocupación, empleo informal y subocupación por aglomerado urbano) e `raw.cache_indec_salarios_indice` (Índice de salarios por sector).
+  * *Aplicación:* La plataforma usa los datos de la EPH para identificar qué sectores y regiones de Argentina tienen mayor índice de empleo en riesgo de automatización y correlaciona las bandas salariales de mercado.
+* ✅ **Filtro Blockchain Oficial:**  
+  * *¿Varias partes que no se confían?* **SÍ:** La empresa desconfía del CV del candidato; el candidato desconfía de que la empresa reconozca sus méritos sin acomodo.  
+  * *¿Inmutabilidad necesaria?* **SÍ:** Un certificado no puede ser alterado ni inflado por el candidato.  
+  * *¿Flujo de valor/pagos?* **SÍ:** Micro-pagos en satoshis (Lightning) por tareas de validación de datos e IA (*Learn-to-Earn* real).
+* ✅ **Filtro Bilinkis / Sigman:** 100% de coincidencia conceptual: premia y certifica el juicio crítico humano sobre la automatización ciega.
+
+---
+
+### ⚖️ Veredicto
+**APROBADA COMO CANDIDATA PRINCIPAL (95/100).**  
+Resuelve de forma directa la objeción del mentor (*"¿Quién lo paga?"*), ataca el problema del impacto de la IA en el trabajo y tiene un modelo de negocio B2B claro, escalable y atractivo para un fondo de VC como Picante.
+
+
